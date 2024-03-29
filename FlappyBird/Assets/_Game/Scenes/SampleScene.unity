@@ -172,6 +172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6295196092138739249, guid: 7a38fc30d8d7d214d88a0cde1a919658, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -282,7 +286,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: -1
   m_CullingMask:
@@ -325,6 +329,10 @@ PrefabInstance:
     - target: {fileID: 5933034306643681691, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
       propertyPath: m_Name
       value: Pipes (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5933034306643681691, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9139717328560260824, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -383,6 +391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UpperPipe (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3212903161190017543, guid: deff301073ee59a4da61e552eea5023e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8067542703346830178, guid: deff301073ee59a4da61e552eea5023e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 17.54
@@ -440,6 +452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipes (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5933034306643681691, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9139717328560260824, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.4
@@ -485,6 +501,24 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
+--- !u!1 &1125852599 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5219061969796948395, guid: 0b01e5c8ce964ea4aba7b7bc308d403c, type: 3}
+  m_PrefabInstance: {fileID: 8894271362179682935}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1125852602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1125852599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d369c37463db804e860ee7f35c19048, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JumpForce: 100
 --- !u!1001 &1577282773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -496,6 +530,10 @@ PrefabInstance:
     - target: {fileID: 5933034306643681691, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
       propertyPath: m_Name
       value: Pipes (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5933034306643681691, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9139717328560260824, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -553,6 +591,10 @@ PrefabInstance:
     - target: {fileID: 3212903161190017543, guid: deff301073ee59a4da61e552eea5023e, type: 3}
       propertyPath: m_Name
       value: UpperPipe (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212903161190017543, guid: deff301073ee59a4da61e552eea5023e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8067542703346830178, guid: deff301073ee59a4da61e552eea5023e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -769,6 +811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor
       objectReference: {fileID: 0}
+    - target: {fileID: 6295196092138739249, guid: 7a38fc30d8d7d214d88a0cde1a919658, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -785,6 +831,10 @@ PrefabInstance:
     - target: {fileID: 5484244762464368292, guid: 52bb7cf4811121d489ec9fa053d0aa98, type: 3}
       propertyPath: m_Name
       value: Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 5484244762464368292, guid: 52bb7cf4811121d489ec9fa053d0aa98, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9028022333222495248, guid: 52bb7cf4811121d489ec9fa053d0aa98, type: 3}
       propertyPath: m_LocalPosition.x
@@ -843,6 +893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pipes
       objectReference: {fileID: 0}
+    - target: {fileID: 5933034306643681691, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9139717328560260824, guid: 91420f0a5aa797c43bd5b6c9ddec4ef7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.15
@@ -899,6 +953,10 @@ PrefabInstance:
     - target: {fileID: 3212903161190017543, guid: deff301073ee59a4da61e552eea5023e, type: 3}
       propertyPath: m_Name
       value: UpperPipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 3212903161190017543, guid: deff301073ee59a4da61e552eea5023e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8067542703346830178, guid: deff301073ee59a4da61e552eea5023e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -997,6 +1055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6848327861439460449, guid: 2fc23af44afeb5648b626dc316c6c78f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1020,11 +1082,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4609927856853096596, guid: 0b01e5c8ce964ea4aba7b7bc308d403c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4609927856853096596, guid: 0b01e5c8ce964ea4aba7b7bc308d403c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4609927856853096596, guid: 0b01e5c8ce964ea4aba7b7bc308d403c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1070,10 +1132,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.069
       objectReference: {fileID: 0}
+    - target: {fileID: 9019020312294158109, guid: 0b01e5c8ce964ea4aba7b7bc308d403c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3551287784963028691, guid: dd065126c7f6fbc45ac784cdbe4add46, type: 3}
+    - target: {fileID: 9019020312294158109, guid: 0b01e5c8ce964ea4aba7b7bc308d403c, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5219061969796948395, guid: 0b01e5c8ce964ea4aba7b7bc308d403c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1125852602}
   m_SourcePrefab: {fileID: 100100000, guid: 0b01e5c8ce964ea4aba7b7bc308d403c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
